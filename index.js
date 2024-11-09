@@ -23,9 +23,7 @@ function save() {
     countEl.textContent = 0
     count = 0
       
-    // setTimeout(function() {
-    //     saveEl.textContent="";
-    // }, 3000);
+
 }
 function finish(){
     if (sumLaps === 0)
