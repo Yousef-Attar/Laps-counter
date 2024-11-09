@@ -22,6 +22,7 @@ function save() {
     finishBtn+=" - "+ count + " "}
     countEl.textContent = 0
     count = 0
+    
       
 
 }
@@ -34,3 +35,6 @@ function finish(){
      count=0
      sumLaps=0
 }
+document.getElementById("increment-btn").addEventListener("click", increment);
+document.getElementById("save-btn").addEventListener("click", save);
+document.getElementById("finish-btn").addEventListener("click", finish);
